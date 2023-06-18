@@ -1,0 +1,444 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title-black {
+  color: #000;
+  font-family: "Santa Catarina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  margin: 0;
+  text-align: center;
+}
+
+
+.title-white {
+  font-family: "Santa Catarina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.title-white span {
+  color: #FFE9BA;
+}
+
+.descr {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+/* анимации */
+
+@keyframes jump {
+  from {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(70px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes anim {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Стили для шапки сайта */
+
+.header {
+  background-color: #000;
+  padding: 25px 0 10px 0;
+  height: 50px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.header__link {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  list-style: none;
+  text-decoration: none;
+  transition: all 0.7s ease-in-out;
+}
+
+.header__link_active {
+  color: #FFE9BA;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  list-style: none;
+  text-decoration: none;
+  transition: all 0.7s ease-in-out;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  border-bottom: 1px solid #ffe167;
+}
+
+/* Intro */
+
+.intro {
+  position: relative;
+  background: #000000;
+  padding: 30px 0 80px 0;
+}
+
+.intro::after {
+  content: '';
+
+  display: block;
+  width: 100%;
+  height: 220px;
+	background: #000;
+	border-radius: 100%;
+
+  position: absolute;
+  bottom: -115px;
+  left: 0;
+
+  z-index: -1;
+}
+
+.intro__wrapper {
+  display: flex;
+  gap: 190px;
+}
+
+.intro__img {
+  width: 366px;
+  height: 389px;
+}
+
+.intro__descr {
+  max-width: 447px;
+}
+
+.intro__text {
+  color: #FFFFFF;
+  margin-top: 60px;
+  text-align: center;
+}
+
+
+/* box */
+
+.box {
+  position: relative;
+}
+
+.box__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 19px;
+  position: absolute;
+  top: -10px;
+}
+
+.box__content {
+  background: url(image/care/Group21.png);
+  width: 285px;
+  height: 285px;
+}
+
+.box__content:nth-child(2) {
+  background: url(image/care/Group22.png);
+}
+
+.box__content:nth-child(3) {
+  background: url(image/care/Group23.png);
+}
+
+.box__content:nth-child(4) {
+  background: url(image/care/Group24.png);
+}
+
+.box__text {
+  max-width: 194px;
+  margin: 0 auto;
+  margin-top: 42px;
+
+  text-align: center;
+}
+
+.box__text-2 {
+  margin-top: 110px;
+}
+
+/* feature */
+
+.feature {
+  position: relative;
+  margin-top: 405px;
+  z-index: 1;
+}
+
+.feature__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.feature__descr {
+  margin-top: 40px;
+  padding-left: 55px;
+}
+
+.feature::after {
+  content: '';
+
+  display: block;
+  height: 230px;
+  width: 100%;
+  border-radius: 100%;
+  background-color: #ffffff;
+
+  position: absolute;
+  bottom: -115px;
+  z-index: -1;
+}
+
+
+/* home */
+
+
+.home {
+  background-color: #D9D9D9;
+  padding-top: 190px;
+  position: relative;
+}
+
+.home__descr{
+  text-align: center;
+
+  margin-top: 35px;
+  padding: 0 80px;
+}
+
+.home__content{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__item {
+  width: 255px;
+  height: 333px;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.home__item:nth-child(2) {
+  width: 509px;
+  height: 333px;
+}
+
+.home__item:nth-child(3) {
+  width: 387px;
+  height: 333px;
+}
+
+.home__item img {
+	transition: all 1s ease-out;
+}
+
+.home__item img:hover {
+	transform: scale(1.1);
+}
+
+.home__filler{
+  margin-top: 90px;
+}
+
+
+.home::after {
+  content: '';
+
+  display: block;
+  height: 230px;
+  width: 100%;
+  border-radius: 100%;
+  background-color:  #D9D9D9;;
+
+  position: absolute;
+  bottom: -115px;
+  z-index: -1;
+}
+
+
+
+/* food */
+
+.food {
+  margin-top: 200px;
+}
+
+.food__descr {
+  text-align: left;
+  padding: 0 80px 0 0;
+}
+
+.food__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  
+  margin-top: 50px;
+}
+
+.food__pyramid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.food__pyramid img {
+  display: block;
+  width: 51px;
+  height: 63px;
+  margin: 0 auto;
+}
+
+.food__pyramid__item {
+  width: 118px;
+  height: 44px;
+  border-radius: 40px;
+
+  background: #D9D9D9;
+}
+
+.food__pyramid__item:nth-child(3) {
+  width: 179.47px;
+  background: #FFE9BA;
+}
+
+.food__pyramid__item:nth-child(4) {
+  width: 233.6px;
+}
+
+.food__pyramid__item:nth-child(5) {
+  width: 287.72px;
+}
+
+.food__pyramid__item:nth-child(6) {
+  width: 339px;
+}
+
+.food__pyramid__text {
+  line-height: 44px;
+  text-align: center;
+}
+
+
+/* foot */
+
+
+.foot{
+  margin: 100px 0 55px 0;
+}
+
+.foot__back {
+  background-color: #FFE9BA;
+  border-radius: 40px;
+  padding: 40px 90px 0 90px;
+}
+
+.foot__descr {
+  margin-top: 25px;
+}
+
+.foot__wrapper {
+  display: flex;
+}
+
+.foot__item {
+  background: #FFFFFF;
+  border-radius: 40px;
+  width: 486px;
+  margin: 40px 0 24px 0;
+}
+
+.foot__nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 60px 20px 45px;
+}
+
+.foot__nav ul {
+  padding: 0;
+}
+
+.foot__link {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+  margin-top: 7px;
+}
+
+.foot__link:nth-child(1) {
+  margin-top: 0;
+}
+
+.foot__link a {
+  color: #000;
+}
+
+.foot__bord {
+  border-bottom: 1px solid #000000;
+  width: 85px;
+  padding-top: 8px;
+}
+
+.foot__link a:hover {
+  color: #D9D9D9;
+}
