@@ -1,0 +1,371 @@
+body{
+	margin: 0;
+	padding: 0;}
+	
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/* Стили для шапки сайта */
+
+.header {
+    width: 1528px;
+    height: 124px;
+    background: #97826F;
+    position: absolute;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: center;
+	gap: 80px;
+    margin-top: 40px;
+}
+
+.header__link {
+	color: black;
+	font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+	list-style: none;
+	text-decoration: none;
+	transition: all 0.7s ease-in-out;
+}
+
+.menu-item {
+    width: 155px;
+    height: 47px;
+
+    background: #ECECEC;
+    border-radius: 163px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ellipse {
+    margin-top: -80px;
+    margin-left: -200px;
+}
+.ellipse1 {
+
+    margin-top: -68px;
+    margin-left: -187px;
+}
+
+/* content */
+.content {
+    padding:  0px 87px 0 61px;;
+}
+
+.box {
+    width: 1581px;
+    height: 509px;
+    margin-left: -300px;
+
+    background: linear-gradient(180deg, rgba(112, 112, 112, 0.5) 0%, rgba(254, 254, 254, 0.291094) 99.99%, rgba(255, 255, 255, 0.29) 100%);
+}
+
+.box1 {
+    position: absolute;
+    width: 1581px;
+    height: 642px;
+    
+    background: rgba(255, 255, 255, 0.31);
+    z-index: -1;
+}
+
+.box2 {
+    position: absolute;
+    width: 1581px;
+    height: 616px;
+    margin-top: 600px;
+    margin-left: -300px;
+    z-index: -2;
+    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(172, 160, 148, 0.31) 100%);
+    
+}
+
+.box3 {
+    position: absolute;
+    width: 1581px;
+    height: 609px;
+    margin-top: 1216px;
+    margin-left: -300px;
+    z-index: -3;
+
+    background: rgba(172, 160, 148, 0.29);
+}
+
+.box4 {
+    position: absolute;
+    width: 1581px;
+    height: 609px;
+    margin-top: 1825px;
+    margin-left: -300px;
+    z-index: -4;
+
+    background: linear-gradient(180deg, rgba(172, 160, 148, 0.29) 0%, rgba(218, 193, 100, 0.42) 100%);
+}
+
+.box5 {
+    position: absolute;
+    width: 1581px;
+    height: 609px;
+    margin-top: 2434px;
+    margin-left: -300px;
+    z-index: -5;
+
+    background: rgba(218, 193, 100, 0.43);
+}
+
+.box6{
+    position: absolute;
+    width: 1581px;
+    height: 609px;
+    margin-top: 3043px;
+    margin-left: -300px;
+    z-index: -6;
+    background: linear-gradient(180deg, rgba(218, 193, 100, 0.41) 0%, rgba(229, 132, 120, 0.31) 100%);
+}
+
+.box7 {
+    position: absolute;
+    width: 1581px;
+    height: 1309px;
+    margin-top: 3652px;
+    margin-left: -300px;
+    z-index: -6;
+    background:rgba(229, 132, 120, 0.31) ;
+}
+
+
+
+
+
+.img1 {
+    width: 346px;
+    height: 530.35px;
+    position: absolute;
+
+    margin-top: 200px;
+    margin-left: 200px;
+
+    }
+
+.img2 {
+    position: absolute;
+    width: 122px;
+    height: 259.21px;
+    margin-top: 200px;
+    margin-left: 1100px;
+
+    }
+
+.img3 {
+    position: absolute;
+    width: 282.06px;
+    height: 347px;
+    margin-top: 300px;
+    margin-left: 790px;
+    }
+
+    .img4 {
+        position: absolute;
+        width: 277.09px;
+        height: 279px;
+        margin-top: 180px;
+        margin-left: 100px;
+        }
+
+.img5 {
+    position: absolute;
+    width: 277.09px;
+    height: 279px;
+    margin-top: 520px;
+    margin-left: -100px;
+}
+    
+.img6 {
+    position: absolute;
+    width: 559.15px;
+    height: 603px;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+
+.img7 {
+    position: absolute;
+    width: 235.38px;
+    height: 215px;
+    margin-top: 860px;
+    margin-left: 700px;
+}
+
+.img8 {
+    position: absolute;
+    width: 559.15px;
+    height: 603px;
+    margin-top: 450px;
+    margin-left: 200px;
+}
+
+.img9 {
+    position: absolute;
+    width: 235.38px;
+    height: 215px;
+    margin-top: 520px;
+    margin-left: 1100px;
+}
+
+.img10 {
+    position: absolute;
+    width: 235.38px;
+    height: 215px;
+    margin-top: 480px;
+    margin-left: 730px;
+}
+
+.img11 {
+    position: absolute;
+    width: 235.38px;
+    height: 215px;
+    margin-top: 480px;
+    margin-left: 200px;
+}
+
+.img12 {
+    position: absolute;
+    width: 235.38px;
+    height: 215px;
+    margin-top: 320px;
+    margin-left: 200px;
+}
+
+.img13 {
+    position: absolute;
+    width: 235.38px;
+    height: 215px;
+    margin-top: 180px;
+    margin-left: 800px;
+}
+
+.img14 {
+    position: absolute;
+    width: 235.38px;
+    height: 215px;
+    margin-top: 350px;
+    margin-left: 900px;
+}
+
+.img15 {
+    position: absolute;
+    width: 235.38px;
+    height: 215px;
+    margin-top: 430px;
+    margin-left: 200px;
+}
+.img16 {
+    position: absolute;
+    width: 235.38px;
+    height: 215px;
+    margin-top: 100px;
+    margin-left: 1100px;
+}
+
+.img17 {
+    position: absolute;
+    width: 235.38px;
+    height: 215px;
+    margin-top: 200px;
+    margin-left: 750px;
+}
+
+.img18 {
+    position: absolute;
+    width: 235.38px;
+    height: 215px;
+    margin-top: 155px;
+    margin-left: 1100px;
+}
+
+.img19 {
+    position: absolute;
+    width: 235.38px;
+    height: 215px;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.img20 {
+    position: absolute;
+    width: 402.32px;
+    height: 252.39px;
+    margin-top: 850px;
+    margin-left: 900px;
+
+}
+
+
+/* footer */
+.fot {
+    margin: 0;
+    padding: 0;
+    margin-top: 4800px;
+}
+.footer {
+    position: absolute;
+    width: 1520px;
+    height: 200px;
+    
+    background: #97826F;
+    border-radius: 23px 23px 0 0;
+    margin-left: -260px;
+
+}
+
+.footer-text {
+    width: 222px;
+    height: 44px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    margin-top: 20px;
+    margin-left: 650px;
+
+    color: #ECECEC;
+}
+
+.logo {
+    padding: 0px 87px 0 61px;
+}
+
+.logo4 {
+    width: 394px;
+    height: 136px;
+    margin-left: 530px;
+    margin-top: 40px;
+}
+.logo5 {
+    width: 394px;
+    height: 136px;
+    margin-left: 660px;
+    margin-top: -135px;
+}
+
+.logo6 {
+    width: 394px;
+    height: 136px;
+    margin-left: 790px;
+    margin-top: -135px;
+}

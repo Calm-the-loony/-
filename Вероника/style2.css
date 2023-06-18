@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Стили для шапки сайта */
+
+.header {
+  width: 1528px;
+  height: 124px;
+  background: #97826f;
+  position: absolute;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 40px;
+}
+
+.header__link {
+  color: black;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  list-style: none;
+  text-decoration: none;
+  transition: all 0.7s ease-in-out;
+}
+
+
+.menu-item {
+  width: 155px;
+  height: 47px;
+
+  background: #ececec;
+  border-radius: 163px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ellipse {
+  margin-top: -80px;
+  margin-left: -200px;
+}
+.ellipse1 {
+  margin-top: -68px;
+  margin-left: -187px;
+}
+
+/* 
+contact */
+
+.contact {
+  width: 1536px;
+  height: 124px;
+  position: absolute;
+}
+.photo {
+  position: relative;
+  width: 296px;
+  height: 396px;
+  float: left;
+  margin-top: 200px;
+  margin-left: -160px;
+}
+
+.info {
+  text-align: left;
+  margin-top: 200px;
+  margin-left: 300px;
+  position: absolute;
+  width: 592px;
+  height: 190px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.info span {
+  position: absolute;
+  width: 522px;
+  height: 39px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #000000;
+}
+
+.photo1 {
+  position: relative;
+  width: 530px;
+  height: 57px;
+}
+.images {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 550px;
+}
+
+.images1 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 620px;
+}
+
+.images2 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 690px;
+}
+
+/* Обратная связь */
+
+.feedback {
+  width: 1536px;
+  position: absolute;
+}
+
+p {
+  width: 263px;
+  height: 39px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #000000;
+  margin-left: 10px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+  margin-left: -150px;
+  margin-top: 800px;
+}
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+form textarea {
+  height: 200px;
+}
+
+form button[type="submit"] {
+  background-color: #97826f;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #9e8976;
+}
+
+.button {
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 224px;
+  height: 44px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* footer */
+.fot {
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  position: absolute;
+  width: 1520px;
+  height: 200px;
+
+  background: #97826f;
+  border-radius: 23px 23px 0 0;
+  margin-left: -260px;
+  margin-top: 1240px;
+}
+
+.footer-text {
+  width: 222px;
+  height: 44px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+
+  margin-top: 20px;
+  margin-left: 650px;
+
+  color: #ececec;
+}
+
+.logo {
+  padding: 0px 87px 0 61px;
+}
+
+.logo4 {
+  width: 394px;
+  height: 136px;
+  margin-left: 530px;
+  margin-top: 40px;
+}
+.logo5 {
+  width: 394px;
+  height: 136px;
+  margin-left: 660px;
+  margin-top: -135px;
+}
+
+.logo6 {
+  width: 394px;
+  height: 136px;
+  margin-left: 790px;
+  margin-top: -135px;
+}
